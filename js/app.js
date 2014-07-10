@@ -9,15 +9,8 @@ $(document).ready(function() {
     //appends message containing username and message
     $('#messageWindow').append('<p>' + first +':  ' + message + '</p>');
       
-    // $('#username').val('');
-    // $('#messageArea').val('');
+    $('#username').val('');
+    $('#messageArea').val('');
   });
 
 });
-// p
-
-// .text format(first, message);
-
-// function format() {
-//   return first":" message;
-// }
