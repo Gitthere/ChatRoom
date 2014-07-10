@@ -2,14 +2,22 @@ $(document).ready(function() {
 
   $('#submitButton').on('click', function(e) {
     e.preventDefault();
+    //gets value entered in username
     var first = $('#username').val();
-    console.log(first);
+    //gets value entered in message box
     var message = $('#messageArea').val();
-    console.log(message);
-
-    $('#messageWindow').append(first, message);
-
-    $('#username').remove(first);
-  })
+    //appends message containing username and message
+    $('#messageWindow').append('<p>' + first +':  ' + message + '</p>');
+      
+    // $('#username').val('');
+    // $('#messageArea').val('');
+  });
 
 });
+// p
+
+// .text format(first, message);
+
+// function format() {
+//   return first":" message;
+// }
