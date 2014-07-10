@@ -1,4 +1,35 @@
 #messageArea {
-  height: 500px;
+  height: 200px;
   width: 300px;
+  margin-left: 17px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#nameAndMessage {
+  font-style: helvetica;
+  font-size: 30px;
+}
+
+#username {
+  width: 300px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#messageInput {
+  margin-top: 20px;
+}
+
+#submitButton {
+  margin-top: 20px;
+  margin-left: 339px;
+  border-radius: 25px;
+  width: 100px;
+  font-size: 15px;
+  box-shadow: 10px 10px 5px #888888;
+}
+
+#messageWindow {
+  font-size: 25px;
+  font-style: helvetica;
+  border-bottom: 2px solid;
 }

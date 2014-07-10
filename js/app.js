@@ -6,9 +6,11 @@ $(document).ready(function() {
     var first = $('#username').val();
     //gets value entered in message box
     var message = $('#messageArea').val();
-    //appends message containing username and message
-    $('#messageWindow').append('<p>' + first +':  ' + message + '</p>');
-      
+    //creates timestamp
+    var time = new Date($.now());
+    //appends message containing username, message and timestamp
+    $('#messageWindow').append('<p>' + first +':  ' + message + ':  ' + time + '</p>');
+    //clears username and message values onclick
     $('#username').val('');
     $('#messageArea').val('');
   });
