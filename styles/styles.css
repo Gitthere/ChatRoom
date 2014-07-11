@@ -37,3 +37,11 @@
 .user {
   color: orange;
 }
+
+.messageSend {
+  color: green;
+}
+
+.messageTime {
+  color: blue;
+}
