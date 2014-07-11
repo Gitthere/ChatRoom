@@ -33,3 +33,7 @@
   font-style: helvetica;
   border-bottom: 2px solid;
 }
+
+.user {
+  color: orange;
+}
